@@ -33,12 +33,16 @@ header{
             border-radius: 30px;
             padding: 20px 30px;
             transition: 0.5s;
+            animation-name: fadeIn;
+            animation-duration: 1.6s;
         }
         .trial-btn{
             background-color: #383B70;
             border-radius: 30px;
             padding: 20px 30px;
             transition: 0.5s;
+            animation-name: fadeIn;
+            animation-duration: 2.6s;
         }
         .download-btn:hover{
             background-color: #f73e7b;
