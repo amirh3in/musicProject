@@ -10,13 +10,15 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { PlaylistsComponent } from './components/playlists/playlists.component';
+import { SongsComponent } from './pages/songs/songs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeaderComponent,
-    PlaylistsComponent
+    PlaylistsComponent,
+    SongsComponent
   ],
   imports: [
     BrowserModule,
