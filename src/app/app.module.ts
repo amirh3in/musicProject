@@ -9,12 +9,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { PlaylistsComponent } from './components/playlists/playlists.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    PlaylistsComponent
   ],
   imports: [
     BrowserModule,
