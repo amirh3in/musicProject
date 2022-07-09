@@ -20,6 +20,12 @@ header{
         }
         
     }
+    .decs{
+        small{
+            font-size: 20px;
+        }
+    }
+    
     .button-section{
         
         .download-btn{
@@ -55,4 +61,40 @@ header{
 @keyframes fadeIn{
     from { opacity: 0; transform: translateY(100px);}
     to {opacity: 1;transform: translateY(0);}
+}
+
+@media (max-width: 992px){
+    header{
+        padding-top: 10px;
+        .ctitle{
+            font-size: 60px;
+        }
+        .decs{
+            small{
+                font-size: 15px;
+            }
+        }
+        
+    }
+}
+@media (max-width: 520px){
+    header{
+        .ctitle{
+            font-size: 50px;
+        }
+
+        .button-section{
+            display: flex;
+            flex-direction: column;
+
+            .download-btn{
+                padding: 20px 20px;
+                font-size: 14px;
+            }
+            .trial-btn{
+                padding: 20px 20px;
+                font-size: 14px;
+            }
+        }
+    }
 }

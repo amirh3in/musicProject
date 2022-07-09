@@ -11,11 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // $(document).ready(function(){
-    //   $("#title").fadeIn();
-    //   console.log('re');
-      
-    // })
+  
   }
 
 }
