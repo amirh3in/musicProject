@@ -14,4 +14,12 @@
         <span>Login</span>
         <span class="cr">Create an account</span>
     </div>
+    <button mat-icon-button class="text-white d-block d-lg-none" [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>About</button>
+        <button mat-menu-item>Pages</button>
+        <button mat-menu-item>News</button>
+        <button class="d-block d-md-none" mat-menu-item>Login / Sign in</button>
+    </mat-menu>
 </nav>
