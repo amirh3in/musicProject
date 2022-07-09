@@ -1,0 +1,58 @@
+header{
+    background-color: #0A183D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 50px;
+    padding-top: 30px;
+    min-height: 80vh;    
+    .ctitle{
+        // padding: 20px;
+        line-height: 1;
+        color: white;
+        font-size: 70px;
+        h1{
+            font-size: 70px;
+        }
+
+        .title-music{
+            color: #FC0254;
+        }
+        
+    }
+    .button-section{
+        
+        .download-btn{
+            background-color: #FC0254;
+            border-radius: 30px;
+            padding: 20px 30px;
+            transition: 0.5s;
+        }
+        .trial-btn{
+            background-color: #383B70;
+            border-radius: 30px;
+            padding: 20px 30px;
+            transition: 0.5s;
+        }
+        .download-btn:hover{
+            background-color: #f73e7b;
+        }
+        .trial-btn:hover{
+            background-color: #56597a;
+        }
+    }
+    #title{
+        animation-name: fadeIn;
+        animation-duration: 1.4s;
+    }
+    #title-img{
+        animation-name: fadeIn;
+        animation-duration: 0.5s;
+    }
+    
+}
+
+@keyframes fadeIn{
+    from { opacity: 0; transform: translateY(100px);}
+    to {opacity: 1;transform: translateY(0);}
+}
