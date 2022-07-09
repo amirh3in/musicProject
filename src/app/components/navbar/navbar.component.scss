@@ -5,6 +5,8 @@ nav{
     background-color: #08192D;
     
     .logo{
+        display: flex;
+        align-items: center;
         .sol{
             color: #FF005A;
         }
@@ -17,8 +19,10 @@ nav{
         color: white;
         list-style: none;
         display: flex;
+        padding: 0;
+        margin: 0;
         gap: 20px;
-        font-size: 16px;
+        font-size: 20px;
 
         li{
             width: 80px;
@@ -37,9 +41,10 @@ nav{
         color: white;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 20px;
         padding-right: 20px;
-        font-size: 16px;
+        font-size: 20px;
         cursor: pointer;
 
         .cr{
