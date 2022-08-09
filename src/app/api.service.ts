@@ -9,5 +9,8 @@ export class ApiService {
 
   constructor(private http : HttpClient) { }
 
-  
+  getPhotos(){
+    return this.http.get<any>('https://jsonplaceholder.typicode.com/photos');
+  }
+
 }

@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 border border-2 p-3 d-flex justify-content-center flex-column align-items-center" *ngFor="let item of showData">
+            <div class=" text-center">{{item.title}}</div>
+            <img [src]="item.thumbnailUrl" alt="" class="img-fluid">
+            <span>num:</span><small>{{item.id}}</small> <br>
+        </div>
+    </div>
+    <mat-progress-spinner [mode]="'indeterminate'" [diameter]="100" *ngIf="loading" class="my-2 text-center m-auto">Loading...</mat-progress-spinner >
+</div>

@@ -10,8 +10,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { PlaylistsComponent } from './components/playlists/playlists.component';
-import { SongsComponent } from './pages/songs/songs.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PhotosComponent } from './pages/photos/photos.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     HeaderComponent,
     PlaylistsComponent,
-    SongsComponent
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

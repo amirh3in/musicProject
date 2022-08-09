@@ -1,12 +1,12 @@
+import { PhotosComponent } from './pages/photos/photos.component';
 import { PlaylistsComponent } from './components/playlists/playlists.component';
-import { SongsComponent } from './pages/songs/songs.component';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path: '' , component : PlaylistsComponent},
-  {path: 'songs' , component : SongsComponent }
+  {path: 'photos' , component : PhotosComponent }
 ];
 
 @NgModule({
