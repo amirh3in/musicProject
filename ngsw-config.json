@@ -26,5 +26,17 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name" : "Gallery-service",
+      "urls": ["https://jsonplaceholder.typicode.com/photos"],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 20,
+        "maxAge": "1h",
+        "timeout": "5s"
+      }
+    }
   ]
 }
